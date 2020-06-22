@@ -1,0 +1,241 @@
+country_code;country_name;population
+AF;Afghanistan;29,121,286
+AL;Albania;2,986,952
+DZ;Algeria;34,586,184
+AS;American Samoa;57,881
+AD;Andorra;84,000
+AO;Angola;13,068,161
+AI;Anguilla;13,254
+AQ;Antarctica;0
+AG;Antigua and Barbuda;86,754
+AR;Argentina;41,343,201
+AM;Armenia;2,968,000
+AW;Aruba;71,566
+AU;Australia;21,515,754
+AT;Austria;8,205,000
+AZ;Azerbaijan;8,303,512
+BS;Bahamas;301,790
+BH;Bahrain;738,004
+BD;Bangladesh;156,118,464
+BB;Barbados;285,653
+BY;Belarus;9,685,000
+BE;Belgium;10,403,000
+BZ;Belize;314,522
+BJ;Benin;9,056,010
+BM;Bermuda;65,365
+BT;Bhutan;699,847
+BO;Bolivia;9,947,418
+BA;Bosnia and Herzegovina;4,590,000
+BW;Botswana;2,029,307
+BR;Brazil;201,103,330
+IO;British Indian Ocean Territory;4,000
+VG;British Virgin Islands;21,730
+BN;Brunei;395,027
+BG;Bulgaria;7,148,785
+BF;Burkina Faso;16,241,811
+BI;Burundi;9,863,117
+KH;Cambodia;14,453,680
+CM;Cameroon;19,294,149
+CA;Canada;33,679,000
+CV;Cape Verde;508,659
+KY;Cayman Islands;44,270
+CF;Central African Republic;4,844,927
+TD;Chad;10,543,464
+CL;Chile;16,746,491
+CN;China;1,330,044,000
+CX;Christmas Island;1,500
+CC;Cocos Islands;628
+CO;Colombia;47,790,000
+KM;Comoros;773,407
+CK;Cook Islands;21,388
+CR;Costa Rica;4,516,220
+HR;Croatia;4,491,000
+CU;Cuba;11,423,000
+CW;Curacao;141,766
+CY;Cyprus;1,102,677
+CZ;Czech Republic;10,476,000
+CD;Democratic Republic of the Congo;70,916,439
+DK;Denmark;5,484,000
+DJ;Djibouti;740,528
+DM;Dominica;72,813
+DO;Dominican Republic;9,823,821
+TL;East Timor;1,154,625
+EC;Ecuador;14,790,608
+EG;Egypt;80,471,869
+SV;El Salvador;6,052,064
+GQ;Equatorial Guinea;1,014,999
+ER;Eritrea;5,792,984
+EE;Estonia;1,291,170
+ET;Ethiopia;88,013,491
+FK;Falkland Islands;2,638
+FO;Faroe Islands;48,228
+FJ;Fiji;875,983
+FI;Finland;5,244,000
+FR;France;64,768,389
+PF;French Polynesia;270,485
+GA;Gabon;1,545,255
+GM;Gambia;1,593,256
+GE;Georgia;4,630,000
+DE;Germany;81,802,257
+GH;Ghana;24,339,838
+GI;Gibraltar;27,884
+GR;Greece;11,000,000
+GL;Greenland;56,375
+GD;Grenada;107,818
+GU;Guam;159,358
+GT;Guatemala;13,550,440
+GG;Guernsey;65,228
+GN;Guinea;10,324,025
+GW;Guinea-Bissau;1,565,126
+GY;Guyana;748,486
+HT;Haiti;9,648,924
+HN;Honduras;7,989,415
+HK;Hong Kong;6,898,686
+HU;Hungary;9,982,000
+IS;Iceland;308,910
+IN;India;1,173,108,018
+ID;Indonesia;242,968,342
+IR;Iran;76,923,300
+IQ;Iraq;29,671,605
+IE;Ireland;4,622,917
+IM;Isle of Man;75,049
+IL;Israel;7,353,985
+IT;Italy;60,340,328
+CI;Ivory Coast;21,058,798
+JM;Jamaica;2,847,232
+JP;Japan;127,288,000
+JE;Jersey;90,812
+JO;Jordan;6,407,085
+KZ;Kazakhstan;15,340,000
+KE;Kenya;40,046,566
+KI;Kiribati;92,533
+XK;Kosovo;1,800,000
+KW;Kuwait;2,789,132
+KG;Kyrgyzstan;5,508,626
+LA;Laos;6,368,162
+LV;Latvia;2,217,969
+LB;Lebanon;4,125,247
+LS;Lesotho;1,919,552
+LR;Liberia;3,685,076
+LY;Libya;6,461,454
+LI;Liechtenstein;35,000
+LT;Lithuania;2,944,459
+LU;Luxembourg;497,538
+MO;Macau;449,198
+MK;Macedonia;2,062,294
+MG;Madagascar;21,281,844
+MW;Malawi;15,447,500
+MY;Malaysia;28,274,729
+MV;Maldives;395,650
+ML;Mali;13,796,354
+MT;Malta;403,000
+MH;Marshall Islands;65,859
+MR;Mauritania;3,205,060
+MU;Mauritius;1,294,104
+YT;Mayotte;159,042
+MX;Mexico;112,468,855
+FM;Micronesia;107,708
+MD;Moldova;4,324,000
+MC;Monaco;32,965
+MN;Mongolia;3,086,918
+ME;Montenegro;666,730
+MS;Montserrat;9,341
+MA;Morocco;31,627,428
+MZ;Mozambique;22,061,451
+MM;Myanmar;53,414,374
+NA;Namibia;2,128,471
+NR;Nauru;10,065
+NP;Nepal;28,951,852
+NL;Netherlands;16,645,000
+AN;Netherlands Antilles;136,197
+NC;New Caledonia;216,494
+NZ;New Zealand;4,252,277
+NI;Nicaragua;5,995,928
+NE;Niger;15,878,271
+NG;Nigeria;154,000,000
+NU;Niue;2,166
+KP;North Korea;22,912,177
+MP;Northern Mariana Islands;53,883
+NO;Norway;5,009,150
+OM;Oman;2,967,717
+PK;Pakistan;184,404,791
+PW;Palau;19,907
+PS;Palestine;3,800,000
+PA;Panama;3,410,676
+PG;Papua New Guinea;6,064,515
+PY;Paraguay;6,375,830
+PE;Peru;29,907,003
+PH;Philippines;99,900,177
+PN;Pitcairn;46
+PL;Poland;38,500,000
+PT;Portugal;10,676,000
+PR;Puerto Rico;3,916,632
+QA;Qatar;840,926
+CG;Republic of the Congo;3,039,126
+RE;Reunion;776,948
+RO;Romania;21,959,278
+RU;Russia;140,702,000
+RW;Rwanda;11,055,976
+BL;Saint Barthelemy;8,450
+SH;Saint Helena;7,460
+KN;Saint Kitts and Nevis;51,134
+LC;Saint Lucia;160,922
+MF;Saint Martin;35,925
+PM;Saint Pierre and Miquelon;7,012
+VC;Saint Vincent and the Grenadines;104,217
+WS;Samoa;192,001
+SM;San Marino;31,477
+ST;Sao Tome and Principe;175,808
+SA;Saudi Arabia;25,731,776
+SN;Senegal;12,323,252
+RS;Serbia;7,344,847
+SC;Seychelles;88,340
+SL;Sierra Leone;5,245,695
+SG;Singapore;4,701,069
+SX;Sint Maarten;37,429
+SK;Slovakia;5,455,000
+SI;Slovenia;2,007,000
+SB;Solomon Islands;559,198
+SO;Somalia;10,112,453
+ZA;South Africa;49,000,000
+KR;South Korea;48,422,644
+SS;South Sudan;8,260,490
+ES;Spain;46,505,963
+LK;Sri Lanka;21,513,990
+SD;Sudan;35,000,000
+SR;Suriname;492,829
+SJ;Svalbard and Jan Mayen;2,550
+SZ;Swaziland;1,354,051
+SE;Sweden;9,555,893
+CH;Switzerland;7,581,000
+SY;Syria;22,198,110
+TW;Taiwan;22,894,384
+TJ;Tajikistan;7,487,489
+TZ;Tanzania;41,892,895
+TH;Thailand;67,089,500
+TG;Togo;6,587,239
+TK;Tokelau;1,466
+TO;Tonga;122,580
+TT;Trinidad and Tobago;1,228,691
+TN;Tunisia;10,589,025
+TR;Turkey;77,804,122
+TM;Turkmenistan;4,940,916
+TC;Turks and Caicos Islands;20,556
+TV;Tuvalu;10,472
+VI;U.S. Virgin Islands;108,708
+UG;Uganda;33,398,682
+UA;Ukraine;45,415,596
+AE;United Arab Emirates;4,975,593
+GB;United Kingdom;62,348,447
+US;United States;310,232,863
+UY;Uruguay;3,477,000
+UZ;Uzbekistan;27,865,738
+VU;Vanuatu;221,552
+VA;Vatican;921
+VE;Venezuela;27,223,228
+VN;Vietnam;89,571,130
+WF;Wallis and Futuna;16,025
+EH;Western Sahara;273,008
+YE;Yemen;23,495,361
+ZM;Zambia;13,460,305
+ZW;Zimbabwe;11,651,858

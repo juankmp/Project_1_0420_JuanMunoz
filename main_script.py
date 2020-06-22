@@ -1,26 +1,28 @@
+
 import argparse
-from p_acquisition import m_acquisition as mac
-from p_wrangling import m_wrangling as mwr
-from p_analysis import m_analysis as man 
-from p_reporting import m_reporting as mre 
+
+from p_acquisition import m_acquisition
 
 def argument_parser():
-    parser = argparse.ArgumentParser(description = 'Set chart type')
-    parser.add_argument("-b", "--bar", help="Produce a barplot", action="store_true")
-    parser.add_argument("-l", "--line", help="Produce a lineplot", action="store_true")
+    parser = argparse.ArgumentParser(description='specify input file and api key...')
+    parser.add_argument("-p", "--path", type=str, help='specify companies list file...', required=True)
+    parser.add_argument("-k", "--key", type=str, help='specify Quandl API key...', required=True)
     args = parser.parse_args()
-    return args
 
-def main(some_args):
-    data = mac.acquire()
-    filtered = mwr.wrangle(data, year)
-    results = man.analyze(filtered)
-    fig = mre.plotting_function(results, title, arguments)
-    mre.save_viz(fig, title)
-    print('========================= Pipeline is complete. You may find the results in the folder ./data/results =========================')
+
+def main(args):
+    print('Hola bb - Starting pipeline')
+    #df = pd.DataFrame ({'a':[1,2,3], 'b': [4,5,6]})
+    m_acquisition.get_tickers(args.path)
+    print('Pipeline finished')
+
+
 
 if __name__ == '__main__':
-    year = int(input('Enter the year: '))
-    title = 'Top 10 Manufacturers by Fuel Efficiency ' + str(year)
     arguments = argument_parser()
     main(arguments)
+    print(f'my path is {arguments.path}')
+    print(f'my key is {arguments.key}')
+
+
+
