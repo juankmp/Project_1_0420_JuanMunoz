@@ -35,14 +35,14 @@ def import_data_api(df_all_raw_data):
     list_api = []
     list_job_codes = set(df_all_raw_data['normalized_job_code'])
     list_job_codes_2 = list(list_job_codes) #just downloading five codes to not be blocked by the api
-    list_job_codes_2 = list_job_codes_2[0:3] #just downloading five codes to not be blocked by the api
+    list_job_codes_2 = list_job_codes_2[0:10] #just downloading five codes to not be blocked by the api
     print('Connecting to http://api.dataatwork.org ')
     time.sleep(4)
     print('Api connected..!')
     time.sleep(2)
     #WARNING FOR THE REAL TEST NEED TO CHANGE list_job_codes2 by list_job_codes
     count = 0
-    for i in list_job_codes:
+    for i in list_job_codes_2:
         print(f'Downloading the job code: {i}...')
         url = f'http://api.dataatwork.org/v1/jobs/{i}'
         response = requests.get(url)
