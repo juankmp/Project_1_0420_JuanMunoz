@@ -1,0 +1,159 @@
+Country;Job Title;Age group;Quantity;Percentage
+Germany;Unemployed;40_65;660;6.84%
+France;Unemployed;40_65;643;6.66%
+United Kingdom;Unemployed;40_65;638;6.61%
+Italy;Unemployed;40_65;605;6.27%
+Spain;Unemployed;40_65;531;5.5%
+Germany;Unemployed;26_39;417;4.32%
+Poland;Unemployed;40_65;394;4.08%
+United Kingdom;Unemployed;26_39;325;3.37%
+France;Unemployed;26_39;325;3.37%
+Germany;Unemployed;14_25;324;3.36%
+Italy;Unemployed;26_39;324;3.36%
+Spain;Unemployed;26_39;285;2.95%
+Poland;Unemployed;26_39;271;2.81%
+France;Unemployed;14_25;253;2.62%
+United Kingdom;Unemployed;14_25;223;2.31%
+Italy;Unemployed;14_25;195;2.02%
+Poland;Unemployed;14_25;184;1.91%
+Netherlands;Unemployed;40_65;182;1.89%
+Spain;Unemployed;14_25;168;1.74%
+Romania;Unemployed;40_65;152;1.58%
+Greece;Unemployed;40_65;114;1.18%
+Romania;Unemployed;26_39;107;1.11%
+Portugal;Unemployed;40_65;106;1.1%
+Hungary;Unemployed;40_65;100;1.04%
+Czech Republic;Unemployed;40_65;97;1.01%
+Sweden;Unemployed;40_65;88;0.91%
+Belgium;Unemployed;40_65;87;0.9%
+Netherlands;Unemployed;26_39;82;0.85%
+Bulgaria;Unemployed;40_65;70;0.73%
+Denmark;Unemployed;40_65;67;0.69%
+Greece;Unemployed;26_39;65;0.67%
+Romania;Unemployed;14_25;63;0.65%
+Hungary;Unemployed;26_39;62;0.64%
+Netherlands;Unemployed;14_25;62;0.64%
+Czech Republic;Unemployed;26_39;58;0.6%
+Portugal;Unemployed;26_39;57;0.59%
+Finland;Unemployed;40_65;57;0.59%
+Austria;Unemployed;26_39;53;0.55%
+Belgium;Unemployed;26_39;50;0.52%
+Bulgaria;Unemployed;26_39;45;0.47%
+Sweden;Unemployed;26_39;44;0.46%
+Greece;Unemployed;14_25;43;0.45%
+Sweden;Unemployed;14_25;42;0.44%
+Ireland;Unemployed;40_65;41;0.42%
+Hungary;Unemployed;14_25;41;0.42%
+Croatia;Unemployed;40_65;41;0.42%
+Belgium;Unemployed;14_25;41;0.42%
+Austria;Unemployed;40_65;40;0.41%
+Austria;Unemployed;14_25;38;0.39%
+Slovakia;Unemployed;40_65;37;0.38%
+Portugal;Unemployed;14_25;33;0.34%
+Czech Republic;Unemployed;14_25;32;0.33%
+Finland;Unemployed;26_39;30;0.31%
+Ireland;Unemployed;26_39;29;0.3%
+Slovakia;Unemployed;26_39;29;0.3%
+Denmark;Unemployed;26_39;28;0.29%
+Croatia;Unemployed;26_39;25;0.26%
+Denmark;Unemployed;14_25;24;0.25%
+Bulgaria;Unemployed;14_25;24;0.25%
+Finland;Unemployed;14_25;24;0.25%
+Slovakia;Unemployed;14_25;22;0.23%
+Lithuania;Unemployed;40_65;22;0.23%
+Croatia;Unemployed;14_25;19;0.2%
+Ireland;Unemployed;14_25;18;0.19%
+Lithuania;Unemployed;26_39;14;0.15%
+Latvia;Unemployed;26_39;13;0.13%
+Latvia;Unemployed;40_65;13;0.13%
+Lithuania;Unemployed;14_25;13;0.13%
+Slovenia;Unemployed;26_39;12;0.12%
+France;Data Management Associate;40_65;10;0.1%
+Latvia;Unemployed;14_25;10;0.1%
+Slovenia;Unemployed;14_25;8;0.08%
+Estonia;Unemployed;26_39;8;0.08%
+Slovenia;Unemployed;40_65;8;0.08%
+France;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;7;0.07%
+Spain;Data Management Associate;40_65;7;0.07%
+Cyprus;Unemployed;40_65;6;0.06%
+Germany;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;6;0.06%
+Italy;Data Management Associate;40_65;5;0.05%
+Estonia;Unemployed;14_25;5;0.05%
+Estonia;Unemployed;40_65;5;0.05%
+Spain;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;5;0.05%
+Luxembourg;Unemployed;26_39;5;0.05%
+United Kingdom;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;4;0.04%
+Romania;Data Management Associate;40_65;4;0.04%
+France;Data Management Associate;26_39;4;0.04%
+Malta;Unemployed;40_65;4;0.04%
+Spain;Data Management Associate;26_39;3;0.03%
+Netherlands;Data Management Associate;40_65;3;0.03%
+Poland;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;3;0.03%
+Spain;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;3;0.03%
+Hungary;Data Management Associate;40_65;3;0.03%
+Cyprus;Unemployed;14_25;3;0.03%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;3;0.03%
+Germany;Data Management Associate;40_65;3;0.03%
+France;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;3;0.03%
+United Kingdom;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;3;0.03%
+Germany;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;3;0.03%
+Cyprus;Unemployed;26_39;3;0.03%
+Luxembourg;Unemployed;14_25;3;0.03%
+Luxembourg;Unemployed;40_65;3;0.03%
+Romania;Data Management Associate;26_39;2;0.02%
+Malta;Unemployed;26_39;2;0.02%
+United Kingdom;Data Management Associate;14_25;2;0.02%
+Finland;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;2;0.02%
+France;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;2;0.02%
+Portugal;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;2;0.02%
+Portugal;Data Management Associate;40_65;2;0.02%
+United Kingdom;Data Management Associate;40_65;2;0.02%
+Germany;Voice and Data Technician;26_39;2;0.02%
+Germany;Voice and Data Technician;14_25;2;0.02%
+Slovakia;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;2;0.02%
+Poland;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;2;0.02%
+Poland;Data Management Associate;40_65;2;0.02%
+Poland;Data Management Associate;26_39;2;0.02%
+Greece;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;2;0.02%
+Slovakia;Data Management Associate;14_25;2;0.02%
+Ireland;Data Management Associate;40_65;2;0.02%
+Italy;Voice and Data Technician;40_65;2;0.02%
+United Kingdom;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Spain;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Sweden;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+United Kingdom;Data Management Associate;26_39;1;0.01%
+Spain;Voice and Data Technician;40_65;1;0.01%
+Spain;Voice and Data Technician;14_25;1;0.01%
+Slovakia;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Austria;Data Management Associate;40_65;1;0.01%
+Romania;Voice and Data Technician;40_65;1;0.01%
+Italy;Data Management Associate;26_39;1;0.01%
+Belgium;Data Management Associate;14_25;1;0.01%
+Bulgaria;Data Management Associate;26_39;1;0.01%
+Bulgaria;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;1;0.01%
+Croatia;Data Management Associate;26_39;1;0.01%
+Croatia;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Cyprus;Data Management Associate;26_39;1;0.01%
+Czech Republic;Data Management Associate;26_39;1;0.01%
+Czech Republic;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+France;Voice and Data Technician;26_39;1;0.01%
+Germany;Data Management Associate;14_25;1;0.01%
+Germany;Data Management Associate;26_39;1;0.01%
+Germany;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Greece;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Romania;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;1;0.01%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+Austria;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;1;0.01%
+Lithuania;Voice and Data Technician;40_65;1;0.01%
+Malta;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+Malta;Unemployed;14_25;1;0.01%
+Netherlands;Data Management Associate;14_25;1;0.01%
+Netherlands;Geographic Information Systems Data Administrator (GIS Data Administrator);40_65;1;0.01%
+Poland;Data Management Associate;14_25;1;0.01%
+Poland;Voice and Data Technician;14_25;1;0.01%
+Portugal;Data Management Associate;14_25;1;0.01%
+Portugal;Geographic Information Systems Data Administrator (GIS Data Administrator);14_25;1;0.01%
+Romania;Data Management Associate;14_25;1;0.01%
+Romania;Geographic Information Systems Data Administrator (GIS Data Administrator);26_39;1;0.01%
+Italy;Voice and Data Technician;14_25;1;0.01%
