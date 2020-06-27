@@ -70,7 +70,6 @@ def main(args):
     time.sleep(3)
     print('Juan Muñoz - Data Part Time Ironhack 2020')
 
-
 if __name__ == '__main__':
     option_user = int(input('Hi Ironhacker! To start please [Enter 1 or 2]: 1. To get all countries report / 2: To get the table for a specific country: '))
     arguments = argument_parser()

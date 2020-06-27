@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-
 def quest_arg_against(df_all):
     print('Calculating your data....')
     value_list = []

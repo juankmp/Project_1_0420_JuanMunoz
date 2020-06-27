@@ -48,7 +48,6 @@ def renaming_df(df_all):
     #print(df_all[0:6])
     return df_all
 
-
 # function for remove strange characters
 def replace(x):
     try:
@@ -105,6 +104,8 @@ def cleaning_data(df_all):
 def country_list(df_all):
     country_unique_list = set(df_all['country'])
     return country_unique_list
+
+
 
 
 

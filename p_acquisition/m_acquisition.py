@@ -4,8 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-#load dataset
 
+#load dataset
 def load_dataset(sqlitedb_path):
     time.sleep(1)
     print('Uploading raw data base')
