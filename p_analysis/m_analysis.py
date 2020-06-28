@@ -137,10 +137,10 @@ def quest_arg_for(df_all):
     return df_answer_for
 
 def results_all_countries_agegroup(df_all):
-    df_result = df_all.groupby(['country', 'job_title', 'age_group']).agg({'uuid': ['count']})
+    df_result = df_all.groupby(['country', 'job_title', 'new_age_group']).agg({'uuid': ['count']})
     df_result.columns = ['Quantity']
     df_result = df_result.reset_index().sort_values(by='Quantity', ascending=False)
-    df_result.columns = ['Country', 'Job Title', 'Age group', 'Quantity']
+    df_result.columns = ['Country', 'Job Title', 'New age group', 'Quantity']
     # df_result.loc['Total']= df_result.sum(numeric_only=True, axis=0)
     df_result_per = df_result.copy()
     df_result_per['Percentage'] = round(df_result['Quantity'] / df_result['Quantity'].sum() * 100, 2).astype(str) + '%'
@@ -150,10 +150,10 @@ def results_all_countries_agegroup(df_all):
 
 
 def results_by_country_agegroup(df_all,option_country):
-    df_result = df_all.groupby(['country', 'job_title', 'age_group']).agg({'uuid': ['count']})
+    df_result = df_all.groupby(['country', 'job_title', 'new_age_group']).agg({'uuid': ['count']})
     df_result.columns = ['Quantity']
     df_result = df_result.reset_index().sort_values(by='Quantity', ascending=False)
-    df_result.columns = ['Country', 'Job Title', 'Age group', 'Quantity']
+    df_result.columns = ['Country', 'Job Title', 'New age group', 'Quantity']
     filter_country = df_result['Country'] == option_country
 
     df_result_country = df_result[filter_country].sort_values(by='Quantity', ascending=False)
@@ -162,5 +162,61 @@ def results_by_country_agegroup(df_all,option_country):
     df_by_country_age_group = df_result_country.set_index('Country')
 
     return df_by_country_age_group
+
+def results_age_group_unemployment(df_all):
+    df_result_test = df_all.groupby(['new_age_group']).agg({'uuid': ['count']})
+    df_result_test.columns = ['Total_Qty']
+    df_result_test = df_result_test.reset_index()
+    df_result_test.columns = ['new_age_group', 'Total_Qty']
+    df_result_test.loc['Total'] = df_result_test.sum(numeric_only=True, axis=0)
+    df_result_test['%Share/Total'] = round(df_result_test['Total_Qty'] / df_result_test['Total_Qty'].sum() * 100 * 2,
+                                           1).astype(str) + '%'
+    df_result_test['new_age_group'] = df_result_test['new_age_group'].fillna('Total')
+
+    filter = (df_all['full_time_job'] == 'no')
+    df_all_2 = df_all[filter]
+
+    df_result_test_2 = df_all_2.groupby(['new_age_group']).agg({'uuid': ['count']})
+    df_result_test_2.columns = ['Unemployed_Qty']
+    df_result_test_2 = df_result_test_2.reset_index()
+    df_result_test_2.columns = ['new_age_group', 'Unemployed_Qty']
+    df_result_test_2.loc['Total'] = df_result_test_2.sum(numeric_only=True, axis=0)
+    df_result_test_2['%Share/Unemployed'] = round(
+        df_result_test_2['Unemployed_Qty'] / df_result_test_2['Unemployed_Qty'].sum() * 100 * 2, 1).astype(str) + '%'
+    df_result_test_2['new_age_group'] = df_result_test_2['new_age_group'].fillna('Total')
+
+    df_age_group_unemployment = pd.merge(df_result_test, df_result_test_2, how='left', on='new_age_group')
+    df_age_group_unemployment['%Unemployment rate'] = round(
+        df_age_group_unemployment['Unemployed_Qty'] / df_age_group_unemployment['Total_Qty'] * 100, 1).astype(str) + '%'
+
+    return df_age_group_unemployment
+
+def results_age_unemployment(df_all):
+    df_result_test = df_all.groupby(['age']).agg({'uuid': ['count']})
+    df_result_test.columns = ['Total_Qty']
+    df_result_test = df_result_test.reset_index()
+    df_result_test.columns = ['age', 'Total_Qty']
+    # df_result_test.loc['Total']= df_result_test.sum(numeric_only=True, axis=0)
+    df_result_test['%Share/Total'] = round(df_result_test['Total_Qty'] / df_result_test['Total_Qty'].sum() * 100 * 2,
+                                           1).astype(str) + '%'
+    df_result_test['age'] = df_result_test['age'].fillna('Total')
+
+    filter = (df_all['full_time_job'] == 'no')
+    df_all_2 = df_all[filter]
+
+    df_result_test_2 = df_all_2.groupby(['age']).agg({'uuid': ['count']})
+    df_result_test_2.columns = ['Unemployed_Qty']
+    df_result_test_2 = df_result_test_2.reset_index()
+    df_result_test_2.columns = ['age', 'Unemployed_Qty']
+    # df_result_test_2.loc['Total']= df_result_test_2.sum(numeric_only=True, axis=0)
+    df_result_test_2['%Share/Unemployed'] = round(
+        df_result_test_2['Unemployed_Qty'] / df_result_test_2['Unemployed_Qty'].sum() * 100 * 2, 1).astype(str) + '%'
+    df_result_test_2['age'] = df_result_test_2['age'].fillna('Total')
+
+    df_age_unemployment = pd.merge(df_result_test, df_result_test_2, how='left', on='age')
+    df_age_unemployment['%Unemployment rate'] = round(
+        df_age_unemployment['Unemployed_Qty'] / df_age_unemployment['Total_Qty'] * 100, 1).astype(str) + '%'
+
+    return df_age_unemployment
 
 

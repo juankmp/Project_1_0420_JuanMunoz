@@ -1,8 +1,357 @@
-Country;Job Title;Age group;Quantity;Percentage
-Italy;Unemployed;40_65;611;53.69%
-Italy;Unemployed;26_39;321;28.21%
-Italy;Unemployed;14_25;196;17.22%
-Italy;Data Processing Systems Analyst;26_39;5;0.44%
-Italy;Data Processing Systems Analyst;40_65;3;0.26%
-Italy;Customer Data Technician;40_65;1;0.09%
-Italy;Data Processing Systems Analyst;14_25;1;0.09%
+Country;Job Title;New age group;Quantity;Percentage
+Italy;Unemployed;26-35;105;9.23%
+Italy;Unemployed;36-45;87;7.64%
+Italy;Unemployed;19-25;81;7.12%
+Italy;Unemployed;46-55;80;7.03%
+Italy;Unemployed;14-18;60;5.27%
+Italy;Unemployed;56-65;33;2.9%
+Italy;Data Warehouse Architect;36-45;8;0.7%
+Italy;Database Security Administrator;36-45;7;0.62%
+Italy;Data Warehousing Specialist;36-45;7;0.62%
+Italy;Database Security Expert;36-45;7;0.62%
+Italy;Data Modeling Specialist;36-45;7;0.62%
+Italy;Director of Data Operations;36-45;6;0.53%
+Italy;Database Software Technician;36-45;6;0.53%
+Italy;Automatic Data Processing Customer Liaison (ADP Customer Liaison);36-45;6;0.53%
+Italy;Automatic Data Processing Systems Security Specialist (ADP Systems Security);36-45;6;0.53%
+Italy;Database Administration Manager;36-45;6;0.53%
+Italy;Data Processing Auditor;36-45;6;0.53%
+Italy;Database Development and Administration Project Manager;36-45;5;0.44%
+Italy;Database Architect;26-35;5;0.44%
+Italy;Data Scientist;26-35;5;0.44%
+Italy;Data Processing Systems Analyst;26-35;5;0.44%
+Italy;Data Processing Systems Project Planner;36-45;5;0.44%
+Italy;Data Storage Specialist;36-45;5;0.44%
+Italy;Data Officer;36-45;5;0.44%
+Italy;Database Architect;36-45;5;0.44%
+Italy;Internet Database Specialist;36-45;5;0.44%
+Italy;SQL Database Administrator;36-45;5;0.44%
+Italy;Database Designer;36-45;5;0.44%
+Italy;Data Warehousing Manager;26-35;5;0.44%
+Italy;Engineer, System Electronic Data Processing (Engineer, System EDP);46-55;5;0.44%
+Italy;Data Administrator;36-45;5;0.44%
+Italy;Data Miner;36-45;5;0.44%
+Italy;Data Management Information Technology Specialist;36-45;5;0.44%
+Italy;Automatic Data Processing Planner (ADP Planner);36-45;5;0.44%
+Italy;Data Miner;26-35;5;0.44%
+Italy;Data Architect;36-45;5;0.44%
+Italy;Data Communications Analyst;36-45;5;0.44%
+Italy;Data Scientist;36-45;5;0.44%
+Italy;Data Officer;26-35;5;0.44%
+Italy;Database Consultant;36-45;5;0.44%
+Italy;Data Warehouse Specialist;26-35;4;0.35%
+Italy;Data Manager;36-45;4;0.35%
+Italy;Data Processing Consultant;36-45;4;0.35%
+Italy;Database Modeler;46-55;4;0.35%
+Italy;Database Marketing Analyst;36-45;4;0.35%
+Italy;Data Security Analyst;46-55;4;0.35%
+Italy;Database Manager;36-45;4;0.35%
+Italy;Database Management System Specialist (DBMS Specialist);36-45;4;0.35%
+Italy;Database Engineer;36-45;4;0.35%
+Italy;Data Systems Manager;46-55;4;0.35%
+Italy;Data Warehouse Analyst;46-55;4;0.35%
+Italy;Data Warehousing Manager;36-45;4;0.35%
+Italy;Electronic Data Processing Auditor (EDP Auditor);36-45;4;0.35%
+Italy;Data Management Associate;36-45;4;0.35%
+Italy;Geographic Information Systems Database Administrator (GIS Database Administrator);36-45;4;0.35%
+Italy;Geographic Information Systems Database Administrator (GIS Database Administrator);26-35;4;0.35%
+Italy;Geographic Information Systems Data Specialist (GIS Data Specialist);26-35;4;0.35%
+Italy;Data Administrator;26-35;4;0.35%
+Italy;Data Architect;46-55;4;0.35%
+Italy;Data Coordinator;26-35;4;0.35%
+Italy;Database Consultant;46-55;4;0.35%
+Italy;Data Input Clerk;36-45;3;0.26%
+Italy;Data Warehousing Engineer;36-45;3;0.26%
+Italy;Data Warehousing Manager;46-55;3;0.26%
+Italy;Database Administration Associate;36-45;3;0.26%
+Italy;Data Management Information Technology Specialist;46-55;3;0.26%
+Italy;Automatic Data Processing Planner;36-45;3;0.26%
+Italy;Data Coordinator;36-45;3;0.26%
+Italy;Computer or Data Processing Systems Consultant;26-35;3;0.26%
+Italy;Data Administrator;19-25;3;0.26%
+Italy;Data Base Design Analyst;36-45;3;0.26%
+Italy;Data Base Design Analyst;46-55;3;0.26%
+Italy;Data Warehouse Architect;46-55;3;0.26%
+Italy;Data Warehouse Developer;46-55;3;0.26%
+Italy;Electronic Data Interchange System Developer (EDI System Developer);36-45;3;0.26%
+Italy;Data Systems Manager;36-45;3;0.26%
+Italy;Database Security Administrator;46-55;3;0.26%
+Italy;Data Storage Specialist;46-55;3;0.26%
+Italy;Database Development and Administration Project Manager;46-55;3;0.26%
+Italy;Database Design Analyst;36-45;3;0.26%
+Italy;Database Management System Specialist (DBMS Specialist);46-55;3;0.26%
+Italy;Database Design Analyst;26-35;3;0.26%
+Italy;Database Architect;46-55;3;0.26%
+Italy;Internet Database Specialist;26-35;3;0.26%
+Italy;Data Modeling Specialist;46-55;3;0.26%
+Italy;Data Officer;46-55;3;0.26%
+Italy;Data Processing Auditor;46-55;3;0.26%
+Italy;Data Entry Supervisor;46-55;2;0.18%
+Italy;Database Manager;46-55;2;0.18%
+Italy;Database Manager;26-35;2;0.18%
+Italy;Data Warehousing Engineer;26-35;2;0.18%
+Italy;Data Operations Director;26-35;2;0.18%
+Italy;Data Miner;46-55;2;0.18%
+Italy;Data Miner;19-25;2;0.18%
+Italy;Data Warehouse Developer;36-45;2;0.18%
+Italy;Data Operations Director;36-45;2;0.18%
+Italy;Data Entry Representative;36-45;2;0.18%
+Italy;Data Compiler;46-55;2;0.18%
+Italy;Data Communications Software Consultant;26-35;2;0.18%
+Italy;Data Communications Analyst;26-35;2;0.18%
+Italy;Database Modeler;36-45;2;0.18%
+Italy;Data Warehouse Developer;26-35;2;0.18%
+Italy;Data Warehouse Architect;26-35;2;0.18%
+Italy;Database Marketing Analyst;26-35;2;0.18%
+Italy;Database Tester;56-65;2;0.18%
+Italy;Database Programmer;36-45;2;0.18%
+Italy;Database Tester;19-25;2;0.18%
+Italy;Data Warehouse Analyst;26-35;2;0.18%
+Italy;Database Development Project Manager;36-45;2;0.18%
+Italy;Database Designer;26-35;2;0.18%
+Italy;Database Coordinator;46-55;2;0.18%
+Italy;Database Coordinator;36-45;2;0.18%
+Italy;Database Engineer;26-35;2;0.18%
+Italy;Database Administration Manager;26-35;2;0.18%
+Italy;Database Administration Manager;19-25;2;0.18%
+Italy;Database Administration Associate;26-35;2;0.18%
+Italy;Data Warehousing Engineer;46-55;2;0.18%
+Italy;Database Management System Specialist (DBMS Specialist);26-35;2;0.18%
+Italy;Databases Computer Consultant;36-45;2;0.18%
+Italy;Database Tester;46-55;2;0.18%
+Italy;Database Tester;36-45;2;0.18%
+Italy;Database Tester;26-35;2;0.18%
+Italy;Data Warehouse Analyst;36-45;2;0.18%
+Italy;Data Processing Auditor;19-25;2;0.18%
+Italy;Data Storage Specialist;26-35;2;0.18%
+Italy;Voice and Data Technician;46-55;2;0.18%
+Italy;Geographic Information Systems Data Specialist (GIS Data Specialist);46-55;2;0.18%
+Italy;Geographic Information Systems Data Specialist (GIS Data Specialist);36-45;2;0.18%
+Italy;Geographic Information Systems Data Manager (GIS Data Manager);46-55;2;0.18%
+Italy;Geographic Information Systems Data Manager (GIS Data Manager);19-25;2;0.18%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);36-45;2;0.18%
+Italy;Data Coder Operator;36-45;2;0.18%
+Italy;SQL Database Administrator;26-35;2;0.18%
+Italy;Data Capture Clerk;36-45;2;0.18%
+Italy;Head of Information Systems and Data Processing;46-55;2;0.18%
+Italy;Data Architect;26-35;2;0.18%
+Italy;Computer or Data Processing Systems Consultant;36-45;2;0.18%
+Italy;Clinical Data Management Manager (CDM Manager);26-35;2;0.18%
+Italy;Automatic Data Processing Planner (ADP Planner);46-55;2;0.18%
+Italy;Automatic Data Processing Planner;56-65;2;0.18%
+Italy;Data Storage Specialist;19-25;2;0.18%
+Italy;Automatic Data Processing Customer Liaison (ADP Customer Liaison);46-55;2;0.18%
+Italy;Geographic Information Systems Database Administrator (GIS Database Administrator);46-55;2;0.18%
+Italy;Data Coder Operator;26-35;2;0.18%
+Italy;Health Data Analyst;36-45;2;0.18%
+Italy;Data Warehouse Specialist;36-45;2;0.18%
+Italy;Data Processor;36-45;2;0.18%
+Italy;Internet Database Specialist;46-55;2;0.18%
+Italy;Data Security Administrator;36-45;2;0.18%
+Italy;Data Processing Systems Project Planner;26-35;2;0.18%
+Italy;Data Processing Systems Project Planner;19-25;2;0.18%
+Italy;Data Processing Manager;36-45;2;0.18%
+Italy;Data Processing Manager;26-35;2;0.18%
+Italy;Data Processing Systems Analyst;46-55;2;0.18%
+Italy;Naval Tactical Data System--Combat Information Center Watch Officer, Carrier Controlled Approach Controller;36-45;2;0.18%
+Italy;Electronic Data Processing Auditor (EDP Auditor);46-55;2;0.18%
+Italy;Oracle Database Administrator (Oracle DBA);36-45;2;0.18%
+Italy;Operations Officer, Afloat (Naval Tactical Data Systems);46-55;2;0.18%
+Italy;Electronic Data Interchange System Developer (EDI System Developer);26-35;2;0.18%
+Italy;Naval Tactical Data System--Combat Information Center Watch Officer, General;36-45;2;0.18%
+Italy;Naval Tactical Data System--Combat Information Center Watch Officer, Carrier Controlled Approach Controller;46-55;2;0.18%
+Italy;Data Administrator;46-55;1;0.09%
+Italy;Data Capture Clerk;56-65;1;0.09%
+Italy;Data Base Design Analyst;56-65;1;0.09%
+Italy;Data Base Design Analyst;26-35;1;0.09%
+Italy;Data Analyst;26-35;1;0.09%
+Italy;Data Base Design Analyst;19-25;1;0.09%
+Italy;Data Analyst;14-18;1;0.09%
+Italy;Data Analysis Assistant;46-55;1;0.09%
+Italy;Data Entry Machine Operator;56-65;1;0.09%
+Italy;Data Center Operator;36-45;1;0.09%
+Italy;Data Sciences Director;14-18;1;0.09%
+Italy;Data Entry Operator;36-45;1;0.09%
+Italy;Data Entry Representative;26-35;1;0.09%
+Italy;Data Entry Specialist;46-55;1;0.09%
+Italy;Data Processing Systems Project Planner;46-55;1;0.09%
+Italy;Data Processor;46-55;1;0.09%
+Italy;Data Reduction Technician;26-35;1;0.09%
+Italy;Data Sciences Director;36-45;1;0.09%
+Italy;Data Scientist;14-18;1;0.09%
+Italy;Data Scientist;46-55;1;0.09%
+Italy;Data Security Administrator;56-65;1;0.09%
+Italy;Data Acquisition Technician;26-35;1;0.09%
+Italy;Data Acquisition Technician;46-55;1;0.09%
+Italy;Data Coordinator;56-65;1;0.09%
+Italy;Customer Data Technician;46-55;1;0.09%
+Italy;Computer or Data Processing Systems Consultant;46-55;1;0.09%
+Italy;Data Control Assistant;26-35;1;0.09%
+Italy;Data Control Clerk Supervisor;26-35;1;0.09%
+Italy;Data Control Clerk Supervisor;46-55;1;0.09%
+Italy;Data Conversion Operator;56-65;1;0.09%
+Italy;Data Coordinator;19-25;1;0.09%
+Italy;Data Coordinator;46-55;1;0.09%
+Italy;Data Security Analyst;36-45;1;0.09%
+Italy;Data Entry Associate;46-55;1;0.09%
+Italy;Data Entry Clerk;19-25;1;0.09%
+Italy;Data Entry Clerk;36-45;1;0.09%
+Italy;Data Entry Clerk;46-55;1;0.09%
+Italy;Data Collector;36-45;1;0.09%
+Italy;Data Collection Technician;36-45;1;0.09%
+Italy;Data Warehouse Specialist;46-55;1;0.09%
+Italy;Data Coder Operator;19-25;1;0.09%
+Italy;Clinical Data Coordinator;36-45;1;0.09%
+Italy;Clinical Data Management Associate Director;46-55;1;0.09%
+Italy;Clinical Data Management Manager (CDM Manager);46-55;1;0.09%
+Italy;Clinical Data Specialist;14-18;1;0.09%
+Italy;Clinical Data Specialist;36-45;1;0.09%
+Italy;Computer or Data Processing Systems Consultant;14-18;1;0.09%
+Italy;Data Security Analyst;26-35;1;0.09%
+Italy;Data Management Associate;46-55;1;0.09%
+Italy;Data Specialist;26-35;1;0.09%
+Italy;Data Systems Manager;19-25;1;0.09%
+Italy;Data Processing Auxiliary Equipment Operator;36-45;1;0.09%
+Italy;Data Processing Control Clerk;36-45;1;0.09%
+Italy;Data Processing Control Clerk;46-55;1;0.09%
+Italy;Data Processing Manager;46-55;1;0.09%
+Italy;Voice and Data Technician;19-25;1;0.09%
+Italy;Weight in Motion Field Data Collection Technician;36-45;1;0.09%
+Italy;Weight in Motion Field Data Collection Technician;46-55;1;0.09%
+Italy;Clinical Data Associate;36-45;1;0.09%
+Italy;Clinical Data Associate;26-35;1;0.09%
+Italy;Clinical Data Analyst;36-45;1;0.09%
+Italy;Clinical Data Abstractor;46-55;1;0.09%
+Italy;Automatic Data Processing Customer Liaison (ADP Customer Liaison);19-25;1;0.09%
+Italy;Automatic Data Processing Customer Liaison (ADP Customer Liaison);26-35;1;0.09%
+Italy;Automatic Data Processing Planner;26-35;1;0.09%
+Italy;Automatic Data Processing Planner;46-55;1;0.09%
+Italy;Automatic Data Processing Planner (ADP Planner);19-25;1;0.09%
+Italy;Automatic Data Processing Planner (ADP Planner);26-35;1;0.09%
+Italy;Automatic Data Processing Systems Security Specialist (ADP Systems Security);26-35;1;0.09%
+Italy;Automatic Data Processing Systems Security Specialist (ADP Systems Security);46-55;1;0.09%
+Italy;Business Database Analyst;26-35;1;0.09%
+Italy;Data Compiler;36-45;1;0.09%
+Italy;Data Processing Auditor;56-65;1;0.09%
+Italy;Data Processing Auditor;26-35;1;0.09%
+Italy;Data Officer;19-25;1;0.09%
+Italy;Data Processing Supervisor;36-45;1;0.09%
+Italy;Data Technician;56-65;1;0.09%
+Italy;Data Transcriber;46-55;1;0.09%
+Italy;Data Typist;36-45;1;0.09%
+Italy;Data Typist;46-55;1;0.09%
+Italy;Data Typist;56-65;1;0.09%
+Italy;Data Warehouse Architect;14-18;1;0.09%
+Italy;Data Warehouse Specialist;19-25;1;0.09%
+Italy;Data Processing Systems Analyst;36-45;1;0.09%
+Italy;Data Processing Systems Analyst;19-25;1;0.09%
+Italy;Data Modeling Specialist;19-25;1;0.09%
+Italy;Data Officer;14-18;1;0.09%
+Italy;Data Entry Supervisor;56-65;1;0.09%
+Italy;Data Examination Clerk;26-35;1;0.09%
+Italy;Data Input Clerk;46-55;1;0.09%
+Italy;Data Management Associate;26-35;1;0.09%
+Italy;Data Management Information Technology Specialist;26-35;1;0.09%
+Italy;Data Modeler;26-35;1;0.09%
+Italy;Data Modeling Specialist;14-18;1;0.09%
+Italy;Data Modeling Specialist;56-65;1;0.09%
+Italy;Data Processing Services Sales Representative;46-55;1;0.09%
+Italy;Data Control Assistant;19-25;1;0.09%
+Italy;Databases Computer Consultant;46-55;1;0.09%
+Italy;Data Communications Technician;46-55;1;0.09%
+Italy;Internet Database Specialist;56-65;1;0.09%
+Italy;Data Warehousing Specialist;56-65;1;0.09%
+Italy;Database Administration Associate;46-55;1;0.09%
+Italy;Database Administration Manager;14-18;1;0.09%
+Italy;Database Administration Manager;56-65;1;0.09%
+Italy;Database Administrator (DBA);46-55;1;0.09%
+Italy;Database Analyst;19-25;1;0.09%
+Italy;Database Analyst;26-35;1;0.09%
+Italy;Database Analyst;36-45;1;0.09%
+Italy;Database Architect;19-25;1;0.09%
+Italy;Database Architect;56-65;1;0.09%
+Italy;Database Consultant;14-18;1;0.09%
+Italy;Database Consultant;56-65;1;0.09%
+Italy;Database Coordinator;26-35;1;0.09%
+Italy;Database Design Analyst;46-55;1;0.09%
+Italy;Database Design Analyst;56-65;1;0.09%
+Italy;Database Designer;19-25;1;0.09%
+Italy;Database Designer;56-65;1;0.09%
+Italy;Databases Software Consultant;46-55;1;0.09%
+Italy;Director of Data Operations;19-25;1;0.09%
+Italy;Head of Information Systems and Data Processing;19-25;1;0.09%
+Italy;Head of Information Systems and Data Processing;36-45;1;0.09%
+Italy;Data Warehousing Specialist;26-35;1;0.09%
+Italy;Database Developer;26-35;1;0.09%
+Italy;Datastage Developer;36-45;1;0.09%
+Italy;Database Software Technician;19-25;1;0.09%
+Italy;Database Development and Administration Project Manager;26-35;1;0.09%
+Italy;Database Engineer;19-25;1;0.09%
+Italy;Database Engineer;46-55;1;0.09%
+Italy;Database Management System Specialist (DBMS Specialist);56-65;1;0.09%
+Italy;Database Marketing Analyst;46-55;1;0.09%
+Italy;Database Security Administrator;26-35;1;0.09%
+Italy;Database Security Expert;19-25;1;0.09%
+Italy;Database Security Expert;26-35;1;0.09%
+Italy;Database Software Technician;14-18;1;0.09%
+Italy;Database Software Technician;26-35;1;0.09%
+Italy;Database Developer;36-45;1;0.09%
+Italy;Database Software Technician;46-55;1;0.09%
+Italy;Database Software Technician;56-65;1;0.09%
+Italy;Database Specialist;26-35;1;0.09%
+Italy;Database Specialist;36-45;1;0.09%
+Italy;Database Specialist;46-55;1;0.09%
+Italy;Databases Computer Consultant;26-35;1;0.09%
+Italy;Databases Software Consultant;26-35;1;0.09%
+Italy;Databases Software Consultant;36-45;1;0.09%
+Italy;Database Development and Administration Project Manager;56-65;1;0.09%
+Italy;Health Data Analyst;26-35;1;0.09%
+Italy;Marketing Database Analyst;46-55;1;0.09%
+Italy;Data Communications Software Consultant;56-65;1;0.09%
+Italy;Micro Computer Data Processor;26-35;1;0.09%
+Italy;Field Artillery Automated Tactical Data System Specialist;26-35;1;0.09%
+Italy;Field Artillery Automated Tactical Data System Specialist;36-45;1;0.09%
+Italy;Field Traffic Data Technician;36-45;1;0.09%
+Italy;Flight Data Technician;26-35;1;0.09%
+Italy;Flight Data Technician;36-45;1;0.09%
+Italy;Flight Data Technician;46-55;1;0.09%
+Italy;Flight Test Data Acquisition Technician;36-45;1;0.09%
+Italy;GPS Field Data Collector (Global Positioning System Field Data Collector);46-55;1;0.09%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);14-18;1;0.09%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);26-35;1;0.09%
+Italy;Geographic Information Systems Data Administrator (GIS Data Administrator);56-65;1;0.09%
+Italy;Geographic Information Systems Data Manager (GIS Data Manager);36-45;1;0.09%
+Italy;Geographic Information Systems Data Manager (GIS Data Manager);56-65;1;0.09%
+Italy;Data Warehousing Manager;56-65;1;0.09%
+Italy;Data Warehousing Engineer;56-65;1;0.09%
+Italy;Data Warehouse Specialist;56-65;1;0.09%
+Italy;Data Collector;26-35;1;0.09%
+Italy;Data Communications Analyst;46-55;1;0.09%
+Italy;Data Communications Analyst;56-65;1;0.09%
+Italy;Data Communications Software Consultant;36-45;1;0.09%
+Italy;Data Communications Software Consultant;46-55;1;0.09%
+Italy;Engineer, System Electronic Data Processing (Engineer, System EDP);36-45;1;0.09%
+Italy;Engineer, System Electronic Data Processing (Engineer, System EDP);26-35;1;0.09%
+Italy;Engineer, System Electronic Data Processing (Engineer, System EDP);19-25;1;0.09%
+Italy;SQL Database Administrator;46-55;1;0.09%
+Italy;Micro Computer Data Processor;56-65;1;0.09%
+Italy;Naval Tactical Data System--Combat Information Center Officer;36-45;1;0.09%
+Italy;Operations Officer, Afloat (Naval Tactical Data Systems);36-45;1;0.09%
+Italy;Oracle Database Administrator (Oracle DBA);19-25;1;0.09%
+Italy;Oracle Database Administrator (Oracle DBA);26-35;1;0.09%
+Italy;SCADA Operator (Supervisory Control and Data Acquisition Operator);36-45;1;0.09%
+Italy;SCADA Technician (Supervisory Control and Data Acquisition Technician);36-45;1;0.09%
+Italy;SCADA Technician (Supervisory Control and Data Acquisition Technician);46-55;1;0.09%
+Italy;SQL Database Administrator;14-18;1;0.09%
+Italy;Scientific Database Curator;36-45;1;0.09%
+Italy;Electronic Data Processing Auditor (EDP Auditor);26-35;1;0.09%
+Italy;Scientific Database Curator;46-55;1;0.09%
+Italy;Scientific Database Curator;56-65;1;0.09%
+Italy;Survey Data Technician;36-45;1;0.09%
+Italy;Head of Information Systems and Data Processing;26-35;1;0.09%
+Italy;Geographic Information Systems Database Administrator (GIS Database Administrator);56-65;1;0.09%
+Italy;Director of Data Operations;46-55;1;0.09%
+Italy;Geographic Information Systems Database Administrator (GIS Database Administrator);14-18;1;0.09%
+Italy;Electronic Data Interchange System Developer (EDI System Developer);19-25;1;0.09%
+Italy;Electronic Data Processing Auditor (EDP Auditor);19-25;1;0.09%
+Italy;Database Administration Project Manager;46-55;1;0.09%

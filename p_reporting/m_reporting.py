@@ -1,12 +1,13 @@
 import time
 
 
-def export_final_results(path_to,df_all_countries_agegroup,df_by_country_age_group,df_answer_for,df_answer_against,option_country):
+def export_final_results(path_to,df_all_countries_agegroup,df_by_country_age_group,df_answer_for,df_answer_against,option_country,df_all):
     path_to = '/home/usuario/Documentos/Ironhack/Project_1_0420_JuanMunoz/data/results'
     df_all_countries_agegroup.to_csv(f'{path_to}/results_all_countries.csv', index=True, header=True, sep=';')
     df_by_country_age_group.to_csv(f'{path_to}/results_{option_country}.csv', index=True, header=True, sep=';')
     df_answer_for.to_csv(f'{path_to}/df_answer_for.csv', index=False, header=True, sep=';')
     df_answer_against.to_csv(f'{path_to}/df_answer_against.csv', index=False, header=True, sep=';')
+    df_all.to_csv(f'{path_to}/df_all.csv', index=False, header=True, sep=';')
     time.sleep(3)
     print('CSV exporting process has finished successfully!')
     time.sleep(2)
@@ -60,7 +61,7 @@ def sending_email(to_address,option_user,option_country):
     # start TLS for security
     s.starttls()
     # Authentication
-    s.login(fromaddr, "________________") # <----------------------------------------  Contraseña de aplicación
+    s.login(fromaddr, "__________________") # <----------------------------------------  Contraseña de aplicación
     # Converts the Multipart msg into a string
     text = msg.as_string()
     # sending the mail

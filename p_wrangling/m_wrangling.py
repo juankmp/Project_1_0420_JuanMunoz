@@ -84,6 +84,20 @@ def replace_comma(x):
     except:
         return x
 
+def new_age_group(x):
+    if x>=14 and x<=18:
+        return '14-18'
+    elif x>=19 and x<=25:
+        return '19-25'
+    elif x>=26 and x<=35:
+        return '26-35'
+    elif x>=36 and x<=45:
+        return '36-45'
+    elif x>=46 and x<=55:
+        return '46-55'
+    else:
+        return '56-65'
+
 def cleaning_data(df_all):
     df_all['education_level'] = df_all['education_level'].fillna('undefined')
     df_all['job_code'] = df_all['job_code'].fillna('Unemployed')
@@ -94,6 +108,7 @@ def cleaning_data(df_all):
     df_all['age_group'] = df_all['age_group'].replace("juvenile",'14_25')
     df_all['age'] = df_all['age'].apply(replace_age)
     df_all['age'] = df_all['age'].apply(calculate_age)
+    df_all['new_age_group'] = df_all['age'].apply(new_age_group)
     df_all['gender'] = df_all['gender'].apply(lower).replace('fem','female')
     df_all['quest_arguments_against_2'] = df_all['quest_arguments_against'].apply(replace_comma)
     df_all['quest_arguments_for_2'] = df_all['quest_arguments_for'].apply(replace_comma)
