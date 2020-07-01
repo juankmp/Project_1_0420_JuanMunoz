@@ -1,12 +1,15 @@
 import time
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.backends.backend_pdf import PdfPages
 
 
 def export_final_results(path_to,df_all_countries_agegroup,df_by_country_age_group,df_answer_for,df_answer_against,option_country,df_all):
     path_to = '/home/usuario/Documentos/Ironhack/Project_1_0420_JuanMunoz/data/results'
     df_all_countries_agegroup.to_csv(f'{path_to}/results_all_countries.csv', index=True, header=True, sep=';')
     df_by_country_age_group.to_csv(f'{path_to}/results_{option_country}.csv', index=True, header=True, sep=';')
-    df_answer_for.to_csv(f'{path_to}/df_answer_for.csv', index=False, header=True, sep=';')
-    df_answer_against.to_csv(f'{path_to}/df_answer_against.csv', index=False, header=True, sep=';')
+    #df_answer_for.to_csv(f'{path_to}/df_answer_for.csv', index=False, header=True, sep=';')
+    #df_answer_against.to_csv(f'{path_to}/df_answer_against.csv', index=False, header=True, sep=';')
     df_all.to_csv(f'{path_to}/df_all.csv', index=False, header=True, sep=';')
     time.sleep(3)
     print('CSV exporting process has finished successfully!')
@@ -39,7 +42,7 @@ def sending_email(to_address,option_user,option_country):
     # attach the body with the msg instance
     msg.attach(MIMEText(body, 'plain'))
     # open the file to be sent
-    if option_user == 1:
+    if option_user == '1':
         filename = "results_all_countries.csv"
         attachment = open("/home/usuario/Documentos/Ironhack/Project_1_0420_JuanMunoz/data/results/results_all_countries.csv", "rb")  # <--------------------------------------  Attachements
     else:
@@ -61,7 +64,7 @@ def sending_email(to_address,option_user,option_country):
     # start TLS for security
     s.starttls()
     # Authentication
-    s.login(fromaddr, "__________________") # <----------------------------------------  Contraseña de aplicación
+    s.login(fromaddr, "_________") # <----------------------------------------  Contraseña de aplicación
     # Converts the Multipart msg into a string
     text = msg.as_string()
     # sending the mail
@@ -69,3 +72,31 @@ def sending_email(to_address,option_user,option_country):
     # terminating the session
     s.quit()
     print('Email sent!')
+
+
+def create_export_barchart(df_age_unemployment):
+    # creating plots
+    title = '% Unemployment rate by age'
+    fig, ax = plt.subplots(figsize=(15,8))
+    plt.title(title + "\n", fontsize=16)
+    barchart = sns.barplot(data=df_age_unemployment, x='age', y='%Unemployment rate')
+
+    # saving plots
+    path_to= '/home/usuario/Documentos/Ironhack/Project_1_0420_JuanMunoz/data/results'
+    fig = barchart.get_figure()
+    fig.savefig(f'{path_to}/{title}.png')
+    time.sleep(2)
+    print(f'Barchart {title} has been created successfully!')
+    print('-----------------------------------------------------------------------------------------------------------')
+
+
+def export_to_pdf(df,title):
+    df.reset_index(level=0, inplace=True)
+    fig, ax =plt.subplots(figsize=(12,4))
+    ax.axis('tight')
+    ax.axis('off')
+    the_table = ax.table(cellText=df.values,colLabels=df.columns,loc='center')
+
+    pp = PdfPages(f'/home/usuario/Documentos/Ironhack/Project_1_0420_JuanMunoz/data/results/{title}.pdf')
+    pp.savefig(fig, bbox_inches='tight')
+    pp.close()

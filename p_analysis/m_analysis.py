@@ -215,7 +215,7 @@ def results_age_unemployment(df_all):
 
     df_age_unemployment = pd.merge(df_result_test, df_result_test_2, how='left', on='age')
     df_age_unemployment['%Unemployment rate'] = round(
-        df_age_unemployment['Unemployed_Qty'] / df_age_unemployment['Total_Qty'] * 100, 1).astype(str) + '%'
+        df_age_unemployment['Unemployed_Qty'] / df_age_unemployment['Total_Qty'] * 100, 1)#.astype(str) + '%'
 
     return df_age_unemployment
 
