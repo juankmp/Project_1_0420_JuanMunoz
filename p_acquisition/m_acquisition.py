@@ -42,7 +42,7 @@ def import_data_api(df_all_raw_data):
     time.sleep(2)
     #WARNING FOR THE REAL TEST NEED TO CHANGE list_job_codes2 by list_job_codes
     count = 0
-    for i in list_job_codes_2:
+    for i in list_job_codes:
         print(f'Downloading the job code: {i}...')
         url = f'http://api.dataatwork.org/v1/jobs/{i}'
         response = requests.get(url)

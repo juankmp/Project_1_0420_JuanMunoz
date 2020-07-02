@@ -16,7 +16,7 @@ def export_final_results(path_to,df_all_countries_agegroup,df_by_country_age_gro
     time.sleep(2)
     print('-----------------------------------------------------------------------------------------------------------')
 
-def sending_email(to_address,option_user,option_country):
+def sending_email(to_address,option_user,option_country,user_name):
     # libraries to be imported
     print('Sending email...')
     import smtplib
@@ -35,10 +35,10 @@ def sending_email(to_address,option_user,option_country):
     # storing the subject
     msg['Subject'] = "Project Report Ironhack - Juan Munoz"
     # string to store the body of the mail
-    body = '''Hola!,
-    Atthached you will find the age report!
-    Regards,
-    Juan Muñoz'''
+    body = f'Hola {user_name}!, \n \
+    Attached you will find the age report!  \n \
+    Regards, \n \
+    Juan Muñoz'
     # attach the body with the msg instance
     msg.attach(MIMEText(body, 'plain'))
     # open the file to be sent
@@ -64,7 +64,7 @@ def sending_email(to_address,option_user,option_country):
     # start TLS for security
     s.starttls()
     # Authentication
-    s.login(fromaddr, "_________") # <----------------------------------------  Contraseña de aplicación
+    s.login(fromaddr, "__________") # <----------------------------------------  Contraseña de aplicación
     # Converts the Multipart msg into a string
     text = msg.as_string()
     # sending the mail
@@ -91,6 +91,7 @@ def create_export_barchart(df_age_unemployment):
 
 
 def export_to_pdf(df,title):
+
     df.reset_index(level=0, inplace=True)
     fig, ax =plt.subplots(figsize=(12,4))
     ax.axis('tight')
